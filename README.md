@@ -1,4 +1,4 @@
-# SpringBoot MninProj Using MVC => Product Management System (MVC CRUD)
+# SpringBoot MinProj Using MVC => Product Management System (MVC CRUD)
 
 A Spring Boot MVC application that performs complete CRUD operations for product management.
 Users can add, view, update, and delete product details through a web interface.
