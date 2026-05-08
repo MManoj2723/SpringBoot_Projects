@@ -12,3 +12,13 @@ A Spring Boot REST API application that performs complete CRUD operations for to
 Developed using Spring Boot, Spring Data JPA, Hibernate, and MySQL following RESTful architecture principles.
 Implemented global exception handling for centralized and consistent error responses across the application.
 Supports creating, fetching, updating, and deleting tourist records through REST endpoints.
+
+# 3.Tourist Client Application using RestTemplate
+A Spring Boot client application that consumes Tourist REST API services using RestTemplate.
+The project demonstrates communication between microservices by fetching tourist data from another application.
+Implemented GET operations to consume external REST endpoints and process API responses.
+
+# 4.Tourist Client Application using Exchange Method
+A Spring Boot application that consumes Tourist REST API services using RestTemplate exchange() method.
+Demonstrates advanced REST communication with HttpEntity, HttpHeaders, and ResponseEntity handling.
+Used to perform API calls with better control over request methods, headers, and responses.
