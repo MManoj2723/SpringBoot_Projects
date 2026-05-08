@@ -1,24 +1,44 @@
-# 1.SpringBoot MinProj Using MVC 
-# Product Management System (MVC CRUD)
+# Spring Boot Projects
 
-A Spring Boot MVC application that performs complete CRUD operations for product management.
-Users can add, view, update, and delete product details through a web interface.
-Built using Spring Boot, Spring MVC, Spring Data JPA, Hibernate, and MySQL.
-The project follows layered architecture with Controller, Service, Repository, and Entity layers.
+This repository contains multiple Spring Boot mini projects developed for practicing MVC architecture, REST APIs, exception handling, and microservice communication.
 
-# 2.SpringBoot MiniProj Using RestApi
-# Tourist Management REST API
-A Spring Boot REST API application that performs complete CRUD operations for tourist data management.
-Developed using Spring Boot, Spring Data JPA, Hibernate, and MySQL following RESTful architecture principles.
-Implemented global exception handling for centralized and consistent error responses across the application.
-Supports creating, fetching, updating, and deleting tourist records through REST endpoints.
+---
 
-# 3.Tourist Client Application using RestTemplate
-A Spring Boot client application that consumes Tourist REST API services using RestTemplate.
-The project demonstrates communication between microservices by fetching tourist data from another application.
-Implemented GET operations to consume external REST endpoints and process API responses.
+## 1. Product Management System (MVC CRUD)
+- Developed using Spring Boot MVC architecture
+- Performs complete CRUD operations for product management
+- Built with Spring MVC, Spring Data JPA and OracleSQL
+- Follows layered architecture using Controller, Service, Repository, and Entity layers
 
-# 4.Tourist Client Application using Exchange Method
-A Spring Boot application that consumes Tourist REST API services using RestTemplate exchange() method.
-Demonstrates advanced REST communication with HttpEntity, HttpHeaders, and ResponseEntity handling.
-Used to perform API calls with better control over request methods, headers, and responses.
+---
+
+## 2. Tourist Management REST API
+- RESTful API application for managing tourist data
+- Supports complete CRUD operations through REST endpoints
+- Implemented Global Exception Handling for centralized error management
+- Built using Spring Boot, JPA and OracleSql
+
+---
+
+## 3. Tourist Client Application using RestTemplate
+- Consumes Tourist REST API services using RestTemplate
+- Demonstrates inter-service communication in Spring Boot
+- Fetches and processes tourist data from external REST endpoints
+
+---
+
+## 4. Tourist Client Application using exchange() Method
+- Consumes REST APIs using RestTemplate exchange() method
+- Demonstrates usage of HttpEntity, HttpHeaders, and ResponseEntity
+- Provides better control over request and response handling
+
+---
+
+## Technologies Used
+- Java
+- Spring Boot
+- Spring MVC
+- REST API
+- Spring Data JPA
+- OracleSql
+- Maven
