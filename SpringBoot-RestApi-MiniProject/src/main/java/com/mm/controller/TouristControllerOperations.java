@@ -217,38 +217,8 @@ public class TouristControllerOperations {
 	
 	
 	
-	@PostMapping("/upload")
-    public String uploadImage(
-            @RequestParam("image") MultipartFile file)
-            throws IOException {
+	
 
-		String filename = file.getOriginalFilename();
-		Path path = Paths.get(uploadDir, filename);
-		
-		Files.createDirectory(path.getParent());
-		
-		Files.write(path, file.getBytes());
-		
-     
-        return "Image Uploaded Successfully";
-    }
-
-
-    @GetMapping("/images/{fileName}")
-    public ResponseEntity<byte[]> getImage(
-            @PathVariable String fileName)
-            throws IOException {
-    	
-    	Path path = Paths.get(uploadDir, fileName);
-    	
-    	byte[] image = Files.readAllBytes(path);
-    	
-        return ResponseEntity
-        		.ok()
-        		.contentType(MediaType.IMAGE_JPEG)
-        		.body(image);
-        
-    }
 
 }
 
